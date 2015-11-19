@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.homepageMainContent{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.mainInfo{
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    display: block;
+    padding: 10px;
+}
+
+.highLight{
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+}
+
+.logo{
+    display: block;
+
+}
+
+.contracts {
+    list-style: none;
+    padding: 5px;
+}
+
+.contracts p{
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+.userSelectionButton{
+    margin: 5px;
+    width:40px;
+    height: 40px;
+}
+.separator {
+    border-left: 3px solid black;
+    padding-left: 10px;
+    height: 700px;
+}
+
+a{
+    color: red;
+}
+
+.approvalButton{
+    background-image: url("approvebutton.png");
+    background-color: transparent;
+    background: no-repeat;
+}
+
+.rejectButton{
+    background-image: url("rejectbutton.png");
+    background: no-repeat;
+}
+
+.footer {
+    padding-top: 10px;
+    background-color: firebrick;
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    bottom: 0;
+}
+
+.footerText{
+    color:white;
+    font-size:16px;
+}
+
+/*hitman view*/
+.username{
+  margin-bottom: 20px;
+}
+
+.avatarContainer{
+  display: inline-block;
+  float: left;
+}
+
+.infoContainer{
+  display: inline-block;
+  float: right;
+}
+
+ /*start of rating section*/
+.star-rating {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.star-rating .star {
+  padding: 1px;
+  color: #ddd;
+  font-size: 20px;
+  text-shadow: .05em .05em #aaa;
+  list-style-type: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.star-rating .star.filled {
+  color: #fd0;
+}
+.star-rating.readonly .star.filled {
+  color: #666;
+}
+/*end of rating section*/
